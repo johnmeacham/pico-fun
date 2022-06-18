@@ -14,3 +14,6 @@ due to initial power on (which may have garbage values in memory) or
 rebooting after programming it with the bootloader so it will automatically
 turn on when reprogrammed.
 
+this does not interfere with the double reset to get into the bootloader module
+if you have it installed.
+

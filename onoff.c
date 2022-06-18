@@ -28,6 +28,8 @@ void onoff(void)
                 VREG_AND_CHIP_RESET_CHIP_RESET_HAD_RUN_BITS; if
         (!watchdog_hw->scratch[5] && had_run && flag == 42) {
                 flag = 0;
+// uncomment this if you want to go into really really deep sleep that can't be
+// woken by a programmer.
 //               clock_disable(clk_adc); xosc_dormant();
                 for (;;) __wfi();
         } flag = 42;
