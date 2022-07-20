@@ -1,0 +1,3 @@
+[submodule "c3bridge/tiny_editline"]
+	path = c3bridge/tiny_editline
+	url = ../tiny_editline
